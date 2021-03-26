@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Take a Break</title>
+    <style>
+        body {
+            text-align: center;
+            width: 450px;
+        }
+        h1 {
+            font-size: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: #3372c5;
+            font-weight: bold;
+        }
+        p{
+            font-size: 15px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:#3372c5;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            outline: none;
+            border-radius: 25px;
+            border-color: white;
+            font-size: 15px;
+            width: 200px;
+        }
+        #reminder {
+            background: rgb(93, 149, 221);
+            font-weight: bold;
+            color: white;
+        }
+        #cancel{
+            background:lightcoral;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Take a Break</h1>
+    <img src="code.png" width="150px" height="150px"/>
+    <p>Take a break after every 1 hours</p>
+    <button id="reminder">Set Reminder</button><br>
+    <button id="cancel">Cancel Reminder</button>
+    <script src="popup.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
